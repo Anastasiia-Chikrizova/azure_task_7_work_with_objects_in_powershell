@@ -12,4 +12,3 @@ foreach ($file in $files) {
 
 
 $arr | ConvertTo-Json | Out-File -Path./result.json
-#Get-Content ./result.json
